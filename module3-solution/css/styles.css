@@ -1,0 +1,99 @@
+* {
+  margin: 0 auto 0 auto;
+}
+
+body {
+ /* padding-top: 65px;*/
+  font-size: 16px;
+  color: #000; /* black */
+  background-color: #D3D3D3; /* light gray */
+  font-family: 'Oxygen', sans-serif;
+}
+
+/*
+.navbar-fixed-top {
+  top: -70px; /* you'll have to figure out the exact number here */
+/*}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+  position: static; /* this can also be static 
+}*/
+
+/** HEADER **/
+#header-nav {
+ /* position: fixed;*/
+  top: 0;
+  width: 100%;
+  background-color: #000080;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+}
+
+.navbar-brand {
+  padding-bottom: 55px;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+li {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+/*
+.navbar-brand p { /* Kosher cert */
+ /* color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+ /* vertical-align: middle;
+}*/
+
+div#container {
+  background-color: #788;
+  padding: 5px 5px 25px 25px;
+  width: 95%;
+}
+
+#container p {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
